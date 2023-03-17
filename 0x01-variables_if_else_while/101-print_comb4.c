@@ -1,4 +1,4 @@
-int main(void) {
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -6,19 +6,37 @@ int main(void) {
  *
  * Return: Always 0 (Success)
  */
-    int i, j, k;
-    for (i = 0; i <= 7; i++) {
-        for (j = i+1; j <= 8; j++) {
-            for (k = j+1; k <= 9; k++) {
-                putchar('0' + i);
-                putchar('0' + j);
-                putchar('0' + k);
-                if (i != 7 || j != 8 || k != 9) {
-                    putchar(',');
-                    putchar(' ');
-                }
-            }
-        }
-    }
-    return 0;
+int main(void)
+{
+int d1 = 0;
+int d2 = 0;
+int d3 = 0;
+
+while (d1 <= 9)
+{
+while (d2 <= 9)
+{
+while (d3 <= 9)
+{
+if (d1 < d2 && d2 < d3)
+{
+putchar(d1 + '0');
+putchar(d2 + '0');
+putchar(d3 + '0');
+if (d1 != 7 || d2 != 8 || d3 != 9)
+{
+putchar(',');
+putchar(' ');
+}
+}
+++d3;
+}
+d3 = 0;
+++d2;
+}
+d2 = 0;
+++d1;
+}
+putchar('\n');
+return (0);
 }
