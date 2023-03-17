@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
- * main - prints tha alphabet in lowercase
+ * main - Entry point
  *
- * Return: 0
-*/
-
-	int main(void)
+ * Description: print numbers from 0 to 9
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
+int d = 0;
 
-	char x;
-
-	for (x = 0; x < 10; x++)
+while (d <= 9)
 {
-	printf("%d", x);
+printf("%d", d);
+++d;
 }
-	return (0);
+putchar('\n');
+return (0);
 }
