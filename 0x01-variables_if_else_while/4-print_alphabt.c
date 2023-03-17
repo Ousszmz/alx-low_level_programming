@@ -8,13 +8,16 @@
  */
 int main(void)
 {
-char x;
-for (x = 'a';x <= 'd';x++)
-putchar (x);
-for (x = 'f';x <= 'p';x++)
-putchar (x);
-for (x = 'r';x <= 'z';x++)
-putchar (x);
-putchar ('\n');
+char c = 'a';
+
+while (c <= 'z')
+{
+if (c != 'q' && c != 'e')
+{
+putchar(c);
+}
+c++;
+}
+putchar('\n');
 return (0);
 }
