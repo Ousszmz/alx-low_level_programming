@@ -9,7 +9,6 @@
 int main(void)
 {
 char x;
-char y;
 for (x = 'a';x <= 'd';x++)
 putchar (x);
 for (x = 'f';x <= 'p';x++)
