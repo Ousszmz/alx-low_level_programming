@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- * main - check the code
  * print_alphabet - lowercase alphabets
  * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-_putchat('abcdefghijklmnopqrstuvwxyz');
-return (0);
+char c;
+c = 'a'
+while (c <= 'z')
+{
+_putchar(c);
+c++
+}
+_putchar('\n');
 }
