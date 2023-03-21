@@ -1,14 +1,14 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _islower - check alphabets
  * @c: the char should be checked
  * Return:  1 to lowercases or uppercases , 0 otherwise
  */
 
-int _islower(char c)
+int _islower(int c)
 {
-	if ((c >= 97 && c <= 122) ||  (c >= 65 && c <= 90))
+	if ((c >= 'a' && c <= 'z') ||  (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
