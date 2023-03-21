@@ -9,7 +9,7 @@
  *	   otherwise returns 0 always (Success)
  */
 
-int _islower(int c)
+int _islower(char c)
 {
 	if (c >= 97 && c <= 122)
 	{
@@ -17,6 +17,6 @@ int _islower(int c)
 	}
 	else
 	{
-	return (0);
+		return (0);
 	}
 }
