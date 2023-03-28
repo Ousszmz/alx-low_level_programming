@@ -5,7 +5,7 @@
  * followed by a new line
  * @str: string to print the chars from
  */
-void puts2(char *str)
+void puts(char *str)
 {
 	int len, i;
 
