@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _scqwear - returns the natural square root of a number, helper func
  * @num: an integer parameter
@@ -41,5 +40,5 @@ int _sqrt_recursion(int n)
 	{
 		return (1);
 	}
-	return (_sqhelp(n, 2));
+	return (_scqwear(n, 2));
 }
