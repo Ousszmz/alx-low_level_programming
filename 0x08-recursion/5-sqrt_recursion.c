@@ -1,33 +1,31 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * get_sqrt_root - get the natural square root of a number
- * @n: number to calculate the sqaure root of
- * @guess: sqaure root
- * Return: the resulting square root
+ * _scqwear - returns the natural square root of a number, helper func
+ * @num: an integer parameter
+ * @o: an integer parameter
+ *
+ * Return: an integer
  */
-int _evaluate(int i, int n)
+int _scqwear(int num, int o)
 {
-	if (n == 0 || n == 1)
+	if (o % (num / o) == 0)
 	{
-		return (n);
+		if (o * (num / o) == num)
+		{
+			return (o);
+		}
+		else
+		{
+			return (-1);
+		}
 	}
-
-	else if (i * i < n)
-	{
-		return (_evaluate(i + 1, n));
-	}
-	else if (i * i == n)
-	{
-		return (i);
-	}
-	return (-1);
-return (-1);
+	return (0 + _scqwear(num, (o + 1)));
 }
 /**
- * _sqrt_recursion - find square root of given number
- * @n: given number
- * Return: square root | if does not exitst (-1)
+ * _sqrt_recursion - get the square root of a number
+ * @n: an integer parameter
+ * Return: the result of the square root
  */
 int _sqrt_recursion(int n)
 {
