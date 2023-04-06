@@ -12,7 +12,7 @@ int prime(int num_eva, int iter)
 		return ((num_eva == 2) ? 1 : (0));
 	if (num_eva % iter == 0)
 		return (0);
-	if (i * iter > num_eva)
+	if (iter * iter > num_eva)
 		return (1);
 
 	return (prime(num_eva, iter + 1));
