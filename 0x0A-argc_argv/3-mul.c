@@ -1,13 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Entry Point.
- *
- * Description: multiplies two numbers.
- *
- * @argc: number of args
- * @argv: an array of args
- *
- * Return: 0 if success otherwise 1
+ * main - print result of multiplication of two given numbers
+ * @argc: arguments count
+ * @argv: arguments vector (array of strings)
+ * Return: 0 (Success) | 1 (Failure)
  */
 int main(int argc, char *argv[])
 {
