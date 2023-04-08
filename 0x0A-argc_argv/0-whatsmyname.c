@@ -1,14 +1,15 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry Point.
+ *
  * Description: prints program name.
- * @argc: the number of arguments.
- * @argv: the array of arguments.
- * Return: always 0.
+ *
+ * @argc: number of args
+ * @argv: an array of args
+ *
+ * Return: Always 0 (success)
  */
-
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[argc - 1]);
 	return (0);
