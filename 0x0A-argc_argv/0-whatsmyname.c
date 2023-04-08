@@ -2,6 +2,7 @@
 
 /**
  * main - print programm name
+ * Description: prints program name.
  * @argc: the number of arguments.
  * @argv: the array of arguments.
  * Return: always 0.
