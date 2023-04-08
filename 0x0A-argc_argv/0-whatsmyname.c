@@ -1,16 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - Entry Point.
- *
- * Description: prints program name.
- *
- * @argc: number of args
- * @argv: an array of args
- *
- * Return: Always 0 (success)
+ * main - print program name
+ * @argc: arguments count
+ * @argv: arguments vector (array of strings)
+ * Return: always 0
  */
-int main(int argc, char *argv[])
+int main(__attribute__((unused)) int argc, char *argv[])
 {
-	printf("%s\n", argv[argc - 1]);
+	printf("%s\n", argv[0]);
 	return (0);
 }
