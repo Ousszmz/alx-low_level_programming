@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include <ctype.h>
 /**
  * main - checking odf positive numbers
  * @argc: number of args
