@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
  * main - checking odf positive numbers
  * @argc: number of args
